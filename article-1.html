@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why manual trading has already lost · AUTONOMA</title>
+<meta name="description" content="It isn't about skill. It's about latency and attention — and the market no longer waits for either.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="article.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="brand">AUTONOMA <small>autonomous-capital</small></a>
+    <a href="index.html" class="nav__back">← back</a>
+  </div>
+</nav>
+
+<header class="article-head">
+  <div class="container">
+    <div class="article-head__tag">AgentFi · The Thesis</div>
+    <h1 class="article-head__title">Why manual trading has already lost</h1>
+    <p class="article-head__dek">It isn't about skill. It's about latency and attention — and the market no longer waits for either.</p>
+    <div class="article-meta"><span>6 min read</span><span>Updated Nov 2026</span></div>
+  </div>
+</header>
+
+<article class="article-body">
+  <div class="container">
+    <p class="lead">At 02:14 UTC, a perp funding rate flips negative. Somewhere, an agent reads the signal, sizes a hedge, and is flat before the candle closes. A human — a good one, with years of experience and a sharp thesis — is asleep. That single hour, repeated nightly, is the whole argument in miniature.</p>
+
+    <p>For a long time we told ourselves trading was a contest of <strong>judgment</strong>. The better analyst, the better read, the better gut. That was true once, when markets moved at the speed of a newspaper and everyone read the same tape at the same time. It is not true anymore.</p>
+
+    <h2>The bottleneck is you</h2>
+    <p>Markets run 24/7. Your attention doesn't. You sleep, you eat, you take calls, you have a life. Every hour your capital is unattended, it's not being managed — it's being <strong>parked</strong>. And in a market that never closes, parked capital is leaking capital.</p>
+
+    <p>This isn't a moral failing. It's biology. Attention is the scarcest input in your entire process, and you're paying the full price of it: every missed signal, every slow reaction, every "I'll handle it in the morning."</p>
+
+    <h2>Latency is the real edge</h2>
+    <p>Most of what looks like skill in modern markets is just <strong>speed</strong>. The signal was visible to everyone. The edge wasn't seeing it — it was acting on it first. A sub-second response beats a same-day response every single time, not because it's smarter, but because it got the price first.</p>
+
+    <p>You can train judgment for a decade and still be slower than code that was written last week. That isn't a knock on you. It's a property of the game now.</p>
+
+    <div class="pull">You don't lose to a better trader. You lose to one that never sleeps.</div>
+
+    <h2>Emotion is a tax</h2>
+    <p>Panic-selling at the bottom, FOMO at the top, revenge-trading after a loss. These aren't character flaws — they're <strong>defaults</strong>. Every human trader pays them, some occasionally, some constantly. The tax shows up in the drawdowns, in the exits made too late, in the entries made too hot.</p>
+
+    <p>An agent doesn't feel any of it. Not because it's disciplined, but because it has no feeling to overcome. It executes the rule you set in advance, identically, at 02:14 or 14:00.</p>
+
+    <h2>What automation actually changes</h2>
+    <p>The pitch is not "AI is smarter than you." It's simpler: <strong>your rules, executed without you</strong>. The position limits, the stop-losses, the rebalancing thresholds — all the decisions you already know you should make — run around the clock, whether you're at your desk or not.</p>
+
+    <p>The question was never whether to automate. It was whose agent, and what rules. The people still doing it by hand aren't wrong about their thesis. They're just paying the attention tax, every single night, while the market moves on without them.</p>
+  </div>
+</article>
+
+<section class="keep">
+  <div class="container">
+    <div class="keep__label">Keep reading</div>
+    <div class="keep__grid">
+      <a class="keep-card" href="article-2.html"><div class="keep-card__tag">Field log</div><div class="keep-card__title">A day in the life of an agent</div><div class="keep-card__more">24 hours, hour by hour. →</div></a>
+      <a class="keep-card" href="index.html"><div class="keep-card__tag">Overview</div><div class="keep-card__title">Back to AUTONOMA</div><div class="keep-card__more">The landing page →</div></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <div class="footer__brand" style="font-family:var(--display);font-weight:600;letter-spacing:.08em;font-size:13px">AUTONOMA · Autonomous Capital</div>
+      <p class="footer__note">Nothing on this page is financial advice. Autonomous agents involve substantial risk, including loss of principal. For accredited / sophisticated investors only.</p>
+    </div>
+    <div class="footer__copy">© 2026 AUTONOMA</div>
+  </div>
+</footer>
+
+<script>
+  var pb=document.getElementById('progress');
+  window.addEventListener('scroll',function(){var h=document.documentElement;var sc=h.scrollTop||document.body.scrollTop;var m=h.scrollHeight-h.clientHeight;pb.style.width=(m>0?sc/m*100:0)+'%';},{passive:true});
+</script>
+</body>
+</html>

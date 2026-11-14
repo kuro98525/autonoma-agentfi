@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A day in the life of an agent · AUTONOMA</title>
+<meta name="description" content="24 hours, hour by hour. What an autonomous agent actually does while you sleep.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="article.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="brand">AUTONOMA <small>autonomous-capital</small></a>
+    <a href="index.html" class="nav__back">← back</a>
+  </div>
+</nav>
+
+<header class="article-head">
+  <div class="container">
+    <div class="article-head__tag">AgentFi · Field Log</div>
+    <h1 class="article-head__title">A day in the life of an agent</h1>
+    <p class="article-head__dek">24 hours, hour by hour. What an autonomous agent actually does while you sleep.</p>
+    <div class="article-meta"><span>4 min read</span><span>Updated Nov 2026</span></div>
+  </div>
+</header>
+
+<article class="article-body">
+  <div class="container">
+    <p class="lead">The best way to understand an agent is to stop reading about it and watch it. This is a reconstructed day — one agent, one portfolio, twenty-four hours. Nothing dramatized. The whole point is how ordinary it is.</p>
+
+    <h2>00:00 – 06:00 · You're asleep. It isn't.</h2>
+    <p>The Asian session is moving. The agent rebalances a treasury ladder that drifted past its threshold — a trade you'd have made at 9am, if the drift hadn't already cost you by then. It logs the fill, updates the position, moves on.</p>
+    <p>At 02:14 a funding rate flips negative on a perp position. The agent reads it, sizes a hedge, and is flat before the candle closes. No alarm goes off. No one wakes up. That's the point.</p>
+
+    <h2>06:00 – 12:00 · The open</h2>
+    <p>You're waking up. The agent has already been working for six hours. It took profit on a position that hit its target overnight, moved the proceeds into a stable yield, and reset a stop-loss that was too tight after the last run.</p>
+    <p>By the time you look at your phone, the thing that would have demanded your attention is already done. The agent didn't need you to be awake. It needed your rules — which you set once, in advance.</p>
+
+    <div class="pull">It didn't need you to be awake. It needed your rules.</div>
+
+    <h2>12:00 – 18:00 · The quiet hours</h2>
+    <p>Most of a market's day is noise. The agent mostly does nothing — which is exactly right. It monitors volatility, checks drawdown against the cap you set, and waits. Boredom is a feature, not a bug. The agent doesn't trade for the sake of trading.</p>
+
+    <h2>18:00 – 24:00 · The decisions you'd regret</h2>
+    <p>Evening. A headline hits, the kind that used to make you sell at the low or buy the top. The agent checks the position against its constraints and finds nothing to do. Your rules said "hold." So it holds.</p>
+    <p>It's 23:47. You're asleep again. The agent executes the overnight rebalance it runs every day at this hour — the same trade, the same logic, the same discipline, whether the market is calm or crashing. Tomorrow, the log will show one more day where nothing important got missed.</p>
+
+    <p>That's all an agent is. Not magic. Just your rules, kept running while you live your life.</p>
+  </div>
+</article>
+
+<section class="keep">
+  <div class="container">
+    <div class="keep__label">Keep reading</div>
+    <div class="keep__grid">
+      <a class="keep-card" href="article-1.html"><div class="keep-card__tag">The thesis</div><div class="keep-card__title">Why manual trading has already lost</div><div class="keep-card__more">Latency and attention →</div></a>
+      <a class="keep-card" href="index.html"><div class="keep-card__tag">Overview</div><div class="keep-card__title">Back to AUTONOMA</div><div class="keep-card__more">The landing page →</div></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <div class="footer__brand" style="font-family:var(--display);font-weight:600;letter-spacing:.08em;font-size:13px">AUTONOMA · Autonomous Capital</div>
+      <p class="footer__note">Nothing on this page is financial advice. Autonomous agents involve substantial risk, including loss of principal. For accredited / sophisticated investors only.</p>
+    </div>
+    <div class="footer__copy">© 2026 AUTONOMA</div>
+  </div>
+</footer>
+
+<script>
+  var pb=document.getElementById('progress');
+  window.addEventListener('scroll',function(){var h=document.documentElement;var sc=h.scrollTop||document.body.scrollTop;var m=h.scrollHeight-h.clientHeight;pb.style.width=(m>0?sc/m*100:0)+'%';},{passive:true});
+</script>
+</body>
+</html>
