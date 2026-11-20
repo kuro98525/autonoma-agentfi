@@ -1,3 +1,4 @@
 ﻿
 # 本地备份
 *.bak
+check-live.mjs
